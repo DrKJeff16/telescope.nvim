@@ -1,6 +1,8 @@
 -- Credit: https://gist.github.com/runiq/31aa5c4bf00f8e0843cd267880117201
 --
 
+local uv = vim.uv or vim.loop
+
 local M = {}
 
 ---Validates args for `throttle()` and  `debounce()`.
